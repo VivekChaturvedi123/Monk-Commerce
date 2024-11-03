@@ -1,0 +1,112 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+}
+
+.product-manager {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-message {
+  background: #f8f9fa;
+  border-left: 4px solid #ffc107;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.product-list {
+  margin: 2rem 0;
+}
+
+.product-item {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.product-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.drag-handle {
+  cursor: move;
+  color: #6c757d;
+}
+
+.variant-toggle {
+  margin: 0.5rem 0;
+  color: #0066cc;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.variants-list {
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+.variant-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.discount-form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.product-picker .search-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.product-card {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.product-card.selected {
+  border-color: #0066cc;
+  background: #f8f9fa;
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.dialog-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
